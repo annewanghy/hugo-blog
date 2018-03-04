@@ -18,4 +18,19 @@ draft: true
 8.  git init
 9.  echo "themes/" >> .gitignore
 10. echo "public" >> .gitignore
+11. git init
+12. git add remote origin https://github.com/annewanghy/hugo-blog.git
+12. git add .
+13. git push
+```
+
+### Use github pages
+
+```
+1. hugo --theme=even --buildDrafts --baseUrl="https://annewanghy.github.io/"
+2. cd public
+3. git init
+4. git add remote origin https://github.com/annewanghy/annewanghy.github.io.git
+5. git add .
+6. git push
 ```
