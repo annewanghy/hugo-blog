@@ -44,3 +44,17 @@ git add .
 git commit -m "Update blog"
 git push
 ```
+
+### Run shell file on mac
+
+#### permission denied
+
+```
+chmod 777 deploy-to-blog.sh
+```
+
+#### run shell file
+
+```
+./deply-to-blog.sh
+```
