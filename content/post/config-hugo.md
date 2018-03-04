@@ -34,3 +34,13 @@ draft: true
 5. git add .
 6. git push
 ```
+
+### Add shell file to auto deploy
+
+```shell
+hugo --theme=even --buildDrafts --baseUrl="https://annewanghy.github.io/"
+cd public
+git add .
+git commit -m "Update blog"
+git push
+```
